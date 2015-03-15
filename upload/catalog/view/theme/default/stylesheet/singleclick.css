@@ -1,0 +1,60 @@
+#singleclick_form .singleclick_left {
+    display: inline-block;
+    width: 29%;
+    text-align: right;
+}
+
+#singleclick_form .singleclick_right {
+    float: right;
+    display: inline-block;
+    width: 68%;
+    text-align: left;
+}
+#singleclick_form .singleclick_right p {
+    margin-bottom: 15px;
+    padding: 0px;
+}
+#singleclick_form .singleclick_center {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#singleclick_form #singleclick_result {
+    color: #aaa;
+    margin-bottom: 14px;
+}
+#singleclick_form #singleclick_result .singleclick_error {
+    color: #f00;
+}
+#singleclick_form #singleclick_result .singleclick_success {
+    color: #00d12a;
+}
+#singleclick_form p {
+    margin-bottom: 22px;
+    padding: 0px;
+}
+
+#singleclick_form input {
+    margin: 0px;
+    padding: 0px;
+    height: 20px;
+    width: 220px;
+}
+
+#singleclick_form .singleclick_button {
+    font-size: 17px;
+    cursor: pointer;
+    height: 40px;
+    width: 220px;
+}
+/*
+    Стили для темы izistore
+ */
+.prod-list .singleclick_wrapper{float:left;width:auto;}
+.prod-list .singleclick_wrapper a{background:url('../image/addBtn.jpg') no-repeat top left;line-height:10px;margin-left:15px;display:inline-block;padding-left:18px;color:#666;margin-top:10px;}
+.prod-list .singleclick_wrapper a:hover{background-position:bottom left;color:#888;}
+
+
+.singleclick_wrapper a {
+    color:#5DAEC3;font-size:13px;
+}
