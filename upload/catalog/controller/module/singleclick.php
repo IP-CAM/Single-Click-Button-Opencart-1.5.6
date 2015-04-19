@@ -72,7 +72,7 @@ class ControllerModuleSingleclick extends Controller
             $mail->port = $this->config->get('config_smtp_port');
             $mail->timeout = $this->config->get('config_smtp_timeout');
             $mail->setTo($this->config->get('config_email'));
-            $mail->setFrom('order@voda-omela.ru');
+            $mail->setFrom($this->config->get('config_email'));
             $mail->setSender($name);
             $mail->setSubject(html_entity_decode(sprintf($this->language->get('email_subject'),
                 $name, ENT_QUOTES, 'UTF-8')));
