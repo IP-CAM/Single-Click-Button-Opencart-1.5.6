@@ -29,13 +29,13 @@
 			<?php
 			if(!empty($history))
 			{
-			  foreach ($history as $history) { ?>
+			  foreach ($history as $item) { ?>
 			<tr>
-			<td class="left"><?php echo $history['id']; ?></td>
-			<td class="left"><?php echo date('d-m-y',$history['date']); ?></td>
-              <td class="left"><?php echo $history['name']; ?></td>
-              <td class="left"><?php echo $history['phone']; ?></td>
-              <td class="left"><pre><?php echo $history['message']; ?></pre></td>
+			<td class="left"><?php echo $item['id']; ?></td>
+			<td class="left"><?php echo date('d-m-y',$item['date']); ?></td>
+              <td class="left"><?php echo $item['name']; ?></td>
+              <td class="left"><?php echo $item['phone']; ?></td>
+              <td class="left"><pre><?php echo $item['message']; ?></pre></td>
 			</tr>
 			 <?php } }		 
 			?>
